@@ -1,0 +1,755 @@
+---
+title: ""
+format:
+  html:
+    page-layout: custom
+---
+
+```{=html}
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Samiksha Portfolio</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="styles.css" rel="stylesheet">
+    <script>
+        $(document).ready(function () {
+            $(this).scrollTop(0);
+        });
+    </script>
+</head>
+```
+```{=html}
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <h1 class="logo"><a href="index.html">Samiksha's Portfolio</a></h1>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Intro</a></li>
+                    <li><a class="nav-link scrollto " href="#projects">Projects</a></li>
+                    <li><a class="nav-link scrollto " href="/samiksha_thikekar_resume.pdf" target=”_blank”>Resume</a></li>
+                    <li><a class="nav-link scrollto " href="#playground">Playground</a></li>
+                     <li><a class="nav-link scrollto " href="#contact">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+    
+      <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+       <div class="hero-container">
+             <div class="text">
+          <p name="hero" class="display-6 color-d">Hi, I'm</p>
+          <h1 class="hero-title mb-4">Samiksha Thikekar</h1>
+           <p name="hero" class="hero-para-l1">Welcome to my portfolio's homepage. <br/>I'm a data <span class="typed" data-typed-items="analysis,visualization"></span>enthusiast, <br/>passionate about bridging the gap between data and understanding.</p>
+<!-- <p name="hero" class="hero-para-l2">I'm a data <span class="typed" data-typed-items="analysis,visualization"></span>enthusiast.</p> -->
+<!-- <p name="hero" class="hero-para-l2">I'm passionate about bridging the gap between data and understanding.</p> -->
+
+<p name="hero" class="hero-para-l2">Learn more about my data science journey.</p>
+<a href="#about"><span style="font-size: smaller;color: #593196;opacity: 0.8;">scroll down</span><i class="bi bi-chevron-double-down scroll-down"></i></a>
+</div>
+     <div class="image">
+   <img src="assets/img/home_pic.png" style="max-width: 700%;">
+ </div>
+  </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+  
+  
+<main id="main" class="margin-top-0">
+
+           <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-8">
+                      <div class="about-img">
+                        <img src="assets/img/head-shot.png" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12">
+                  <ul class="list-ico">
+                  <li><span class=" bi bi-mortarboard"></span> M.S. Data Science and Analytics '24</li>
+<li><span class=" bi bi-building"></span>  Georgetown University</li>
+                        <li><span class="bi bi-envelope"></span>samikshathikekar8@gmail.com</li>
+                      </ul>
+                    </div>
+                  </div>
+        
+                </div>
+                <div class="col-md-8">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        A bit about me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      I'm a Georgetown University graduate with a Master's in Data Science and Analytics and about two years of industry experience, blending academic rigor with real-world application. My educational journey began at the University of Mumbai, where I earned a Bachelor’s degree in Electronics and Telecommunication Engineering.
+                    </p>
+                     <p class="lead">
+                      After completing my undergraduate, I worked as an Associate System Analyst at National Stock Exchange of India (NSEIT LTD) in the fintech industry, gaining experience in front-end development, database management, and data analytics, and mastering tools from Python to Tableau and beyond. At Georgetown, I also worked as a Graduate Data Analyst with the Center for Global Health Practice and Impact, analyzing healthcare data to provide critical insights for health system needs assessments.
+                    </p>
+                    
+                    <p class="lead">
+                      I'm a strong believer in data science's ability to extract valuable insights from large datasets and address real-world challenges that might otherwise remain useless. My journey from the University of Mumbai to the vibrant corridors of Georgetown has been fueled by a passion for leveraging data to solve complex challenges across various sectors.
+                    </p>
+                    <p class="lead">
+                      When I'm not immersed in academics or data analysis, you can find me exploring my creative side through painting, enjoying leisurely walks, or experimenting with new quick recipes in my cozy kitchen.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="projects" class="portfolio-mf sect-pt3 route">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h5 class="title-a text-center"> Projects</h5>
+                            <p name="hero" class="subtitle-a"> A Glimpse into My Work.</p>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ------- Cards start -------- -->
+
+                <div class="row ">
+                
+                 <!-- ------- Card 0 -------- -->
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="work-box">
+                        
+                        <!--  Card 0 image -->
+                            <div class="work-img">
+                                <img src="assets/img/natural_gas.png" alt="" class="img-fluid">
+                            </div>
+                            
+                             <!--  Card 0 content -->
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+
+                                        <!--  Card 0 title &Skills -->
+                                        <h2 class="w-title">US Natural Gas Industry Analysis</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Time Series Modeling</span><br /> <span
+                                                class="w-date">Jan 2024 - May 2024</span>
+                                        </div>
+
+                                        <!--  Card 0 Description -->
+                                        <p class="card-body">This project explores various aspects of the natural gas industry in the United States, utilizing multiple datasets spanning 2005 to 2022, focusing on prices, consumption, production, imports, exports, stocks, and CO2 emissions and employing a combination of univariate, multivariate, and financial time series models, alongside cutting-edge deep learning approaches.</p>
+                                        <!--  Card 0 link -->
+                                        <a href="https://samikshathikekar.georgetown.domains/time-series-project-website/_site/"
+                                           class="card-link" target="_blank">view here</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  Card 0 content end -->
+                        
+                           </div>
+                        </div>
+                        <!-- ------- Card 0 end -------- -->
+                
+                 <!-- ------- Card 1 -------- -->
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="work-box">
+                        
+                        <!--  Card 1 image -->
+                            <div class="work-img">
+                                <img src="assets/img/diabetes.png" alt="" class="img-fluid">
+                            </div>
+                            
+                             <!--  Card 1 content -->
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+
+                                        <!--  Card 1 title &Skills -->
+                                        <h2 class="w-title">Diabetes checkpoint pro app</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Machine Learning · App deployment · Flask · Heroku</span><br /> <span
+                                                class="w-date">Aug 2023 - Dec 2023</span>
+                                        </div>
+
+                                        <!--  Card 1 Description -->
+                                        <p class="card-body">In this project, a thorough analysis of the Diabetes Health Indicators Dataset from the UCI Repository, employing 21 diverse features, is conducted. Further, advanced generative and non-generative methods are applied to predict diabetes based on healthcare statistics. The project culminated in the development and deployment of a Flask app for diabetes prediction on Heroku.</p>
+                                        <!--  Card 1 link -->
+                                        <a href="https://samiksha-881.quarto.pub/diabetes_prediction_website/"
+                                          class="card-link"  target="_blank">view here</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  Card 1 content end -->
+                        
+                           </div>
+                        </div>
+                        <!-- ------- Card 1 end -------- -->
+                        
+                
+                   <!-- ------- Card 2 -------- -->
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="work-box">
+                        
+                        <!--  Card 2 image -->
+                            <div class="work-img">
+                                <img src="assets/img/reddit.png" alt="" class="img-fluid">
+                            </div>
+                            
+                             <!--  Card 2 content -->
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+
+                                        <!--  Card 2 title &Skills -->
+                                        <h2 class="w-title">Analysis on Entertainment Reddits</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Big Data · AWS · Azure · EDA · NLP · Machine learning</span><br /> <span
+                                                class="w-date">Aug 2023 - Dec 2023</span>
+                                        </div>
+
+                                        <!--  Card 2 Description -->
+                                        <p class="card-body">This project focuses on using big data analytics to extract insights from Reddit interactions within the entertainment communities. EDA is employed to uncover engagement patterns and identify key contributors, while NLP delves into the sentiments and themes within user discussions. The application of ML techniques facilitates predicting post popularity and categorizing content.</p>
+                                        <!--  Card 2 link -->
+                                        <a href="https://gu-dsan6000.github.io/fall-2023-reddit-project-team-34/"
+                                            class="card-link" target="_blank">view here</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  Card 2 content end -->
+                        
+                           </div>
+                        </div>
+                        <!-- ------- Card 2 end -------- -->
+
+                    <!-- ------- Card 3 -------- -->
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="work-box">
+
+                            <!--  Card 3 image -->
+                            <div class="work-img">
+                                <img src="assets/img/coffee.jpeg" alt="" class="img-fluid">
+                            </div>
+
+                            <!--  Card 3 content -->
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+
+                                        <!--  Card 3 title &Skills -->
+                                        <h2 class="w-title">Global Coffee Market Analysis</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Data Visualization</span><br /> <span
+                                                class="w-date">Jan 2023 - May 2023</span>
+                                        </div>
+
+                                        <!--  Card 3 Description -->
+                                        <p class="card-body">Through this project, a caffeinated journey unfolded to
+                                            explore the ever-evolving coffee market, both in the U.S. and around the
+                                            globe. The mission aimed was to decipher consumption trends, savor demand
+                                            patterns, spill the beans on imports and exports, and unveil the secrets of
+                                            popular coffee hangouts. This project serves as a delightful brew for
+                                            understanding the global coffee scene!</p>
+                                        <!--  Card 3 link -->
+                                        <a href="https://samiksha-881.quarto.pub/503-project-website/"
+                                            class="card-link" target="_blank">view here</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  Card 3 content end -->
+
+                        </div>
+                    </div>
+                    <!-- ------- Card 3 end -------- -->
+
+                    <!-- ------- Card 4 -------- -->
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="work-box">
+
+                            <!--  Card 4 image -->
+                            <div class="work-img">
+                                <img src="assets/img/soccer.jpeg" alt="" class="img-fluid">
+                            </div>
+
+                            <!--  Card 4 content -->
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+
+                                        <!--  Cards 4 title &Skills -->
+                                        <h2 class="w-title">Soccer Match Summarization</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Computational Linguistics · NLP</span> <br /> <span
+                                                class="w-date">Jan 2023 - May 2023</span>
+                                        </div>
+                                        <!--  Card 4 Description -->
+
+                                        <p class="card-body">This project analyzes thousands of data from the UEFA
+                                            Champions League 2020-21 season. The goal is to bring the essence of each
+                                            game through crisp, engaging summaries using advanced summarization
+                                            techniques. It's like having a personal sports commentator right at your
+                                            fingertips! </p>
+                                        <!--  Card 4 link -->
+                                        <a href="https://github.com/avisionary/commentary_analysis" target="_blank" class="card-link">View
+                                            here </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  Card 4 content end -->
+
+                        </div>
+                    </div>
+                    <!-- ------- Card 4 end -------- -->
+
+                    <!-- ------- Card 5 -------- -->
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="work-box">
+
+                            <!--  Card 5 image -->
+                            <div class="work-img">
+                                <img src="assets/img/512.jpeg" alt="" class="img-fluid">
+                            </div>
+
+                            <!--  Card 5 content -->
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+
+                                        <!--  Card 5 title &Skills -->
+                                        <h2 class="w-title">US Interest Rates Impact on the Global Economy</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Statistical Modelling · Machine Learning </span>
+                                            <br /><span class="w-date">Jan 2023 - May 2023</span>
+                                        </div>
+
+                                        <!--  Card 5 Description -->
+                                        <p class="card-body">This project embarks on a fascinating journey into the
+                                            intricate interplay between US interest rates and the global economic stage.
+                                            Through the magic of statistical modeling and machine learning, the secrets
+                                            behind this captivating relationship are unveiled.</p>
+
+                                        <!--  Card 5 link -->
+                                        <a class="card-link">Coming Soon</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  Card 5 content end -->
+
+                        </div>
+                    </div>
+                    <!-- ------- Card 5 end -------- -->
+
+                    <!-- ------- Card 6 -------- -->
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="work-box">
+
+                            <!--  Card 6 image -->
+                            <div class="work-img">
+                                <img src="assets/img/jobsearch.jpeg" alt="" class="img-fluid">
+                            </div>
+
+                            <!--  Card 6 content -->
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+
+                                        <!--  Card 6 title &Skills -->
+                                        <h2 class="w-title">Data Science Job Hunt (Mini Project)</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Data Visualization · Data Storytelling</span> <br />
+                                            <span class="w-date">Apr 2023 - May 2023</span>
+                                        </div>
+
+                                        <!--  Card 6 Description -->
+                                        <p class="card-body">Discover how Python was leveraged to simplify the analysis
+                                            of job postings in the USA, employing rigorous data cleaning techniques and
+                                            data visualization to unveil crucial insights. This initiative aims to
+                                            empower individuals with a comprehensive understanding of the evolving US
+                                            Data Science job market.</p>
+
+                                        <!--  Card 6 link -->
+                                        <a href="https://samiksha-881.quarto.pub/job_search_analysis_website/"
+                                            target="_blank" class="card-link">view here</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  Card 6 content end -->
+
+                        </div>
+                    </div>
+                    <!-- ------- Card 6 end -------- -->
+
+                    <!-- ------- Card 7 -------- -->
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="work-box">
+
+                            <!--  Card 7 image -->
+                            <div class="work-img">
+                                <img src="assets/img/fashion.png" alt="" class="img-fluid">
+                            </div>
+
+                            <!--  Card 7 content -->
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+
+                                        <!--  Card 7 title &Skills -->
+                                        <h2 class="w-title">Data Analysis in Clothing Industry</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Data Analysis · Machine Learning</span> <br /> <span
+                                                class="w-date">Aug 2022 - Dec 2022</span>
+                                        </div>
+
+                                        <!--  Card 7 Description -->
+                                        <p class="card-body">This project harnesses data analytics and machine learning
+                                            to delve into consumer sentiments, preferences, and buying patterns. The
+                                            outcome? A valuable wealth of knowledge that sheds light on product success
+                                            and the ever-changing world of fashion trends.
+                                        <p>
+
+                                            <!--  Card 7 link -->
+                                            <a href="https://samikshathikekar.georgetown.domains/501-project-website/pages/introduction.html"
+                                                target="_blank" class="card-link">View here</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  Card 7 content end -->
+
+                        </div>
+                    </div>
+                    <!-- ------- Card 7 end -------- -->
+
+                    <!-- ------- Card 8 -------- -->
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="work-box">
+
+                            <!--  Card 8 image -->
+                            <div class="work-img">
+                                <img src="assets/img/ticketmaster.jpeg" alt="" class="img-fluid">
+                            </div>
+
+                            <!--  Card 8 content -->
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+
+                                        <!--  Card 8 title &Skills -->
+                                        <h2 class="w-title">TicketMaster- Concert Tickets Analysis</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Probabilistic Modeling · Statistical
+                                                Computing</span> <br /> <span class="w-date">Aug 2022 - Dec 2022</span>
+                                        </div>
+
+                                        <!--  Card 8 Description -->
+
+                                        <p class="card-body">Ever wondered if the size of the venue, the artist's
+                                            popularity, or even the day of the week could sway the cost of your concert
+                                            ticket? This project delves into those questions! Statistical analysis
+                                            unveils the secrets behind concert ticket pricing. From pop icons to cozy
+                                            venues, the real show behind the scenes is uncovered.</p>
+
+                                        <!--  Card 8 link -->
+                                        <a class="card-link">Coming soon</a>
+
+                                    </div>
+                                </div>
+                                <!--  Card 8 content end -->
+
+                            </div>
+                        </div>
+                        <!-- ------- Card 8 end -------- -->
+                        
+                    
+                    </div>
+                    <!-- ------- Cards end -------- -->
+
+                </div>
+            </div>
+        </section><!-- End Portfolio Section -->
+        
+
+
+
+
+
+ <!-- ======= Poster Section ======= -->
+    <section class="paralax-mf footer-paralax route">
+      <div class="overlay-mf"></div>
+      
+      <div class="container">
+       
+                  
+                
+        <div class="row">
+          <div class="col-sm-12 z-2 ">
+                        <div class="text-center">
+                            <h5 class="title-a text-center poster-margin text-light fs-3"> Research Posters</h5>
+                        </div>
+                    </div>
+          <div class="col-sm-12">
+      
+              <div class="box-poster-full">
+            
+                <div class="row">
+                
+                  <div class="col-md-8 ">
+                   
+                  
+                  <div class="responsive">
+                   <div class="gallery">
+    <a href="assets/img/503poster.png">
+       <img src="assets/img/503poster.png" alt="">
+    </a>
+    <div class="desc">Advanced Data Visualization (click poster to enlarge)</div>
+  </div>
+  </div>
+   </div>
+                  
+                  <div class="col-md-4">
+                  <div class="responsive">
+                   <div class="gallery">
+    <a href="assets/img/512.png">
+       <img src="assets/img/512.png"  alt="">
+    </a>
+    <div class="desc">Machine Learning (click poster to enlarge)</div>
+  </div>
+  </div>
+  
+              
+                  </div>
+                  
+                </div>
+                
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+        <!-- ======= Playground Section ======= -->
+        <section id="playground" class="blog-mf sect-pt3 pt-4 route playground-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                Outside of work
+                            </h3>
+                            <p name="hero" class="subtitle-a">
+                                What I like to do in my fun time!
+                            </p>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center mb-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <img src="assets/img/walk.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <p class="category">Walk</p>
+                                    </div>
+                                </div>
+                                <p class="card-description">
+                                    Taking a walk is my way to unwind, appreciate my surroundings, and keep myself
+                                    physically fit all at once.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center mb-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                                <img src="assets/img/paint.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <p class="category">Paint</p>
+                                    </div>
+                                </div>
+                                <p class="card-description">
+                                    I find immense joy in bringing my creative visions to life. Lately, I've been diving
+                                    into the boundless world of digital art.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center mb-4">
+                        <div class="card card-blog">
+                            <div class="card-img">
+                          <img src="assets/img/explore.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-category-box">
+                                    <div class="card-category">
+                                        <p class="category">Explore</p>
+                                    </div>
+                                </div>
+                                 <p class="card-description">
+                                    Traveling allows me to discover new perspectives and gain inspiration. Here's a
+                                    snapshot from one of my adventures at Great Falls, Virginia.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Playground Section -->
+        
+           <!-- ======= Contact Section ======= -->
+             <section id="contact">
+    <div  class="section-counter paralax-mf-counter bg-image-counter" >
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+       <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h5 class="title-a title-counter text-center"> Get in touch</h5>
+                        </div>
+                    </div>
+                </div>
+        <div class="row d-flex justify-content-center">
+    
+          <div class="col-sm-1 col-lg-1">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+               <a href="mailto:samikshathikekar8@gmail.com" target=”_blank”><span class="ico-circle"><i class="bi bi-envelope" style="color: white;"></i></span></a>
+              </div>
+             
+            </div>
+          </div>
+          <div class="col-sm-1 col-lg-1">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                 <a href="https://github.com/" target=”_blank”><span class="ico-circle"><i class="bi bi-github" style="color: white;"></i></span></a>
+              </div>
+             
+            </div>
+          </div>
+          <div class="col-sm-1 col-lg-1">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <a href="https://www.linkedin.com/in/samiksha-thikekar-2a9aa419b/" target=”_blank”><span class="ico-circle"><i class="bi bi-linkedin" style="color: white;"></i></span></a>
+              </div>
+            </div>
+          </div>
+          
+
+          
+           <div class="col-sm-12 col-lg-12">
+           <p name="hero" class="counter-credits">Thanks for scrolling!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+            </section>
+    <!-- End Counter Section -->
+
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-4 justify-content-end">
+                    <div class="copyright-box">
+                        <p class="copyright">Copyright &copy; 2024 by Samiksha Thikekar.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4"> </div>
+
+                <div class="col-sm-4 justify-content-end">
+
+                    <div class="copyright-box">
+                        <a href="https://github.com/" target=”_blank”><i class="bi bi-github"></i></span></a>
+                        <a href="https://www.linkedin.com/in/samiksha-thikekar-2a9aa419b/" target=”_blank”><i
+                                class="bi bi-linkedin"></i></span></a>
+                        <a href="mailto:samikshathikekar8@gmail.com" target=”_blank”><i
+                                class="bi bi-envelope"></i></span></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <div id="preloader"></div>
+    <a class="nav-link scrollto back-to-top d-flex align-items-center justify-content-center" href="#hero"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+```
