@@ -3,10 +3,10 @@ project:
 
 website:
   title: "samiksha_portfolio"
-  #navbar:
-    #left:
-      #- href: index.qmd
-      #  text: Home
+  # navbar:
+  #   right:
+  #     - href: index.qmd
+  #       text: Home
       #- about.qmd
 resources: 
     - "*.html"
